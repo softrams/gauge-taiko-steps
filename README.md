@@ -1,6 +1,6 @@
 # Gauge Taiko Steps
 
-Implements gauge steps for all Taiko API, so that tests can be directly written with Taiko API without having to implement
+Implements gauge steps for Taiko API, so that tests can be directly written without having to implement
 steps for most common scenarios.
 
 ## How to use it
@@ -9,7 +9,7 @@ Installl this npm package to your Gauge js project. And update STEP_IMPL_DIR in 
 steps implemenation from this package.
 
 ```bash
-STEP_IMPL_DIR = tests,node_modules/gauge-taiko-steps/lib
+STEP_IMPL_DIR = tests,node_modules/@softrams/gauge-taiko-steps/lib
 ```
 
 ## Thanks to these amazing projects
