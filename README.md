@@ -22,6 +22,29 @@ steps implemenation from this package.
 STEP_IMPL_DIR = tests,node_modules/@softrams/gauge-taiko-steps/lib
 ```
 
+And that's it. Start writing tests. You can check all available steps in the lib folder.
+Here is a sample test showing some of the steps available
+
+```
+## Sample Test Scenario
+
+* Emulate device "iPad Pro landscape"
+* Emulate network "Good3G"
+* Emulate timezone "America/New_York"
+* Set screen size as width "1600" height "900"
+
+* Goto "/"
+* Check "link" with text "Link Text" exists
+* Check "button" with text "FAQs" exists
+* Write "hello" into "search"
+* Click "button" with text "Click Me"
+* Save screenshot
+
+## Test for Accessibility
+* Audit page for accessibility
+
+```
+
 ## Related projects
 
 - Add Data Integrity checks to your tests cases with Gauge Steps (https://github.com/softrams/gauge-taiko-steps-mysql)
