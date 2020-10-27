@@ -34,17 +34,20 @@ Here is a sample test showing some of the steps available
 - Set screen size as width "1600" height "900"
 
 - Goto "/"
+
 - Check "link" with text "Link Text" exists
 - Check "button" with text "FAQs" exists
+
 - Write "hello" into "search"
+
+- Select "value" from dropDown "dropdown"
+
 - Click "button" with text "Click Me"
 - Save screenshot
 
 ## Test for Accessibility
 
 - Audit page for accessibility
-
-```
 
 ## Related projects
 
@@ -54,4 +57,3 @@ Here is a sample test showing some of the steps available
 
 - Gauge Framework (https://gauge.org/)
 - Taiko (https://taiko.dev/)
-```
