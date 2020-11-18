@@ -45,6 +45,9 @@ Here is a sample test showing some of the steps available
 - Click "button" with text "Click Me"
 - Save screenshot
 
+- Write "05/08/2020" into dateField with text "{\"placeholder\":\"Filter by Created Date\"}"
+- Click "button" closer "toRightOf" text "Entity Information"
+
 ## Test for Accessibility
 
 - Audit page for accessibility
