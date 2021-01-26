@@ -5,7 +5,7 @@ steps for most common scenarios.
 
 ## How to use it
 
-Installl this npm package to your Gauge js project.
+Install this npm package to your Gauge js project.
 
 ```bash
 # npm
