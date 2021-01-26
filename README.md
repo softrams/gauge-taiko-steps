@@ -15,8 +15,8 @@ npm i @softrams/gauge-taiko-steps
 yarn add @softrams/gauge-taiko-steps
 ```
 
-And update STEP_IMPL_DIR in /env/default/js.properties to include
-steps implemenation from this package.
+And update STEP_IMPL_DIR in <gauge js project home>/env/default/js.properties to include
+steps implementation from this package.
 
 ```bash
 STEP_IMPL_DIR = node_modules/@softrams/gauge-taiko-steps/lib, \
