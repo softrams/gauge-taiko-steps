@@ -1,6 +1,6 @@
 {
-  "name": "gauge-taiko-steps",
-  "version": "0.0.1",
+  "name": "@softrams/gauge-taiko-steps",
+  "version": "0.0.7",
   "description": "Implementation of common test steps with Taiko driver for writing tests with Gauge framework",
   "main": "index.js",
   "scripts": {
@@ -8,24 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramsbaron/gauge-taiko-steps.git"
+    "url": "git+https://github.com/softrams/gauge-taiko-steps.git"
   },
   "keywords": [
     "gauge",
     "taiko",
     "testing",
-    "bdd",
-    "javascript",
-    "automation"
+    "bdd"
   ],
-  "author": "ramsbaron",
+  "author": "Murali (murali@softrams.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ramsbaron/gauge-taiko-steps/issues"
+    "url": "https://github.com/softrams/gauge-taiko-steps/issues"
   },
-  "homepage": "https://github.com/ramsbaron/gauge-taiko-steps#readme",
+  "homepage": "https://github.com/softrams/gauge-taiko-steps#readme",
   "dependencies": {
-    "taiko": "latest",
-    "taiko-accessibility": "latest"
-  }
+    "taiko": "^1.0.25",
+    "taiko-accessibility": "^0.3.0"
+  },
+  "devDependencies": {}
 }
