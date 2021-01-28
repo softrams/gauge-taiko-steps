@@ -15,7 +15,7 @@ npm i @softrams/gauge-taiko-steps
 yarn add @softrams/gauge-taiko-steps
 ```
 
-And update STEP_IMPL_DIR in \<gauge-project-root\>/env/default/js.properties to include
+And update _STEP_IMPL_DIR_ in `<gauge-project-root>/env/default/js.properties` to include
 steps implementation from this package.
 
 ```bash
@@ -53,10 +53,10 @@ Use one of the two steps below to check the accessbility of the page. Both steps
 - Audit page for accessibility
 - Check accessibility for the page
 
-Executing either of these steps will output a score in a range of 0 to 100, along with a set of violations in your gauge report.
+Executing either of these steps will output a score in a range of 0 to 100, along with a set of violations in your gauge report. If the score for your page is less than 80 the scenario will fail. To change this read about the _min_accessibility_score_ property below.
 
 ### Environment properties to support accessibility (a11y) check
-You can fine tune the a11y check by using the following properties. To use these properties, add them in the `<gauge-project-root>/env/default/default.properties` file.
+You can fine tune the a11y check by using the following properties. To use these properties, add them to the `<gauge-project-root>/env/default/default.properties`
 
 **Set the accessbility score threshold for a page**
 
@@ -69,7 +69,7 @@ min_accessibility_score = 90
 
 **Continue scenario even if accessiblity minimum score is not met**
 
-You can control whether your test scenario should continue if the a11y check of the page fails, as defined by minimum score property. As an example, the following statement will keep the scenario running even if minimum score is not met. Default value is false.
+You can control whether your test scenario should continue even if the a11y check of the page fails, as defined by minimum score property. As an example, the following statement will keep the scenario running even if minimum score is not met. Default value is false.
 
 ```zsh
 # Set to true if you want to continue the scenario if accessibility (a11y) check fails
