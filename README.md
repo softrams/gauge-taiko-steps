@@ -4,6 +4,8 @@ At Softrams, we believe building great software solutions require all hands on t
 
 This repository is an important step in that direction to make end to end tests and user journey tests accessible to everyone. It implements common gauge steps for Taiko API, so that tests can be created in plain language without having to programmatically implement steps for most common scenarios.
 
+> See a list of all available steps [here](./AvailableSteps.md).
+
 We have also created a fully browser based environment for non-programmers to easily access test projects and environments to review, contribute and run tests (without having to install and setup locally). This provides a docker container based environment with all test tooling setup and opens VS Code inside browser. You may provision and run workspaces using these containers to offer a fully automated browser based test environments.
 
 > Check out https://github.com/softrams/automation-toolset for more.
