@@ -1,6 +1,6 @@
 # Gauge Taiko Steps
 
-At Softrams, we believe building great software solutions require all hands on the deck. One of the most important aspects teams focus on is end to end user journey tests and acceptance tests. To make sure everybody in the team to be able to review acceptance tests and contribute building additional tests, we need a testing framework that is accessible to everone, irrespective of programming background. So we chose Gauge, that allows writing tests in plain language, enhanced with simple markdown semantics for additional contextual documentation.
+At Softrams, we believe building great software solutions require all hands on the deck. This includes testing. One of the most important aspects teams focus on is end to end user journey tests and acceptance tests. To make sure everybody in the team to be able to review acceptance tests and contribute building additional tests, we need a testing framework that is accessible to everone, irrespective of programming background. So we chose Gauge, that allows writing tests in plain language, enhanced with simple markdown semantics for additional contextual documentation.
 
 This repository is an important step in that direction to make end to end tests and user journey tests accessible to everyone. It implements common gauge steps for Taiko API, so that tests can be created in plain language without having to programmatically implement steps for most common scenarios.
 
