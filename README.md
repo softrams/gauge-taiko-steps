@@ -76,11 +76,14 @@ You can control whether your test scenario should continue even if the a11y chec
 continue_on_accessibility_fail = true
 ```
 
-## Related projects
+# List of available Steps
+Please see a list of all available steps [here](./AvailableSteps.md).
+
+# Related projects
 
 - Add Data Integrity checks to your tests cases with Gauge Steps (https://github.com/softrams/gauge-taiko-steps-mysql)
 
-## Thanks to these amazing projects
+# Thanks to these amazing projects
 
 - Gauge Framework (https://gauge.org/)
 - Taiko (https://taiko.dev/)
