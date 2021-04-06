@@ -1,12 +1,26 @@
 # Gauge Taiko Steps
 
-At Softrams, we believe building great software solutions require all hands on the deck. This includes testing. One of the most important aspects teams focus on is end to end user journey tests and acceptance tests. To make sure everybody in the team to be able to review acceptance tests and contribute building additional tests, we need a testing framework that is accessible to everone, irrespective of programming background. So we chose Gauge, that allows writing tests in plain language, enhanced with simple markdown semantics for additional contextual documentation.
+At Softrams, we believe building great software solutions require a diverse, cross functional team with all hands on the deck.
+One of the most important aspects, team focuses on is **end to end user journey tests** and acceptance tests.
+To make sure everybody in the team be able to review and actively contribute building user journey tests,
+we need a testing framework that is accessible to everone, irrespective of programming background.
 
-This repository is an important step in that direction to make end to end tests and user journey tests accessible to everyone. It implements common gauge steps for Taiko API, so that tests can be created in plain language without having to programmatically implement steps for most common scenarios.
+This repository is an important step in that direction to make end to end tests and user journey tests accessible to everyone.
+We chose Gauge, that allows writing tests in plain language. When needed, it allows enriching with additional contextual
+documentation with simple markdown semantics. Every step in a test scenario, need to be translated to an action that can be
+executed in the browser. This is often left to test automation engineers and developers. We chose to bridge that gap as well as
+completely eliminate programming or development for each step.
+
+This repository implements common gauge steps for Taiko API, so that tests can be created in plain language without
+having to programmatically implement steps for most common scenarios. This means, anybody in the team can write
+fully executable and verifiable test specifications, in plain language, without any additional programming or development needed.
 
 > See a list of all available steps [here](./AvailableSteps.md).
 
-We have also created a fully browser based environment for non-programmers to easily access test projects and environments to review, contribute and run tests (without having to install and setup locally). This provides a docker container based environment with all test tooling setup and opens VS Code inside browser. You may provision and run workspaces using these containers to offer a fully automated browser based test environments.
+We have also created a fully browser based environment for non-programmers to easily access test projects and environments to review,
+contribute and run tests (without having to install and setup locally). This provides a docker container based environment with all test
+tooling setup and opens VS Code inside browser. You may provision and run workspaces using these containers to offer a fully automated
+browser based test environments.
 
 > Check out https://github.com/softrams/automation-toolset for more.
 
@@ -65,14 +79,19 @@ Here is a sample test showing some of the steps available
 - Write "05/08/2020" into dateField with text "{\"placeholder\":\"Filter by Created Date\"}"
 - Click "button" closer "toRightOf" text "Entity Information"
 
-## Test your application for accessibility (a11y)
+## Test your application for accessibility (a11y) at each step and interaction
+
+Accessibility validation are done using axe library. By integrating this as part of this framework, it allows
+to test for accessibility at each and every step (and interaction). This is great for dynamic, single page applications
+that surface information based on user interactions.
 
 Use one of the two steps below to check the accessbility of the page. Both steps perform the same action.
 
 - Audit page for accessibility
 - Check accessibility for the page
 
-Executing either of these steps will output a score in a range of 0 to 100, along with a set of violations in your gauge report. If the score for your page is less than 80 the scenario will fail. To change this read about the _min_accessibility_score_ property below.
+Executing either of these steps will output a score in a range of 0 to 100, along with a set of violations in your gauge report.
+If the score for your page is less than 80 the scenario will fail. To change this read about the _min_accessibility_score_ property below.
 
 Make sure to install taiko-accessibility plugin as well.
 
