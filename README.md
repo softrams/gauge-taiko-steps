@@ -1,15 +1,15 @@
 # Gauge Taiko Steps
 
-At Softrams, we believe building great software solutions require a diverse, cross functional team with all hands on the deck.
+At Softrams, we believe that building great software solutions require a diverse, cross functional team with all hands on the deck.
 One of the most important aspects, team focuses on is **end to end user journey tests** and acceptance tests.
-To make sure everybody in the team be able to review and actively contribute building user journey tests,
-we need a testing framework that is accessible to everone, irrespective of programming background.
+To make sure everybody in the team be able to review and actively contribute to building user journey tests,
+we need a testing framework that is **accessible** to everyone, irrespective of programming background.
 
 This repository is an important step in that direction to make end to end tests and user journey tests accessible to everyone.
-We chose Gauge, that allows writing tests in plain language. When needed, it allows enriching with additional contextual
-documentation with simple markdown semantics. Every step in a test scenario, need to be translated to an action that can be
-executed in the browser. This is often left to test automation engineers and developers. We chose to bridge that gap as well as
-completely eliminate programming or development for each step.
+We chose Gauge, that allows writing tests in **plain** language. When needed, it allows enriching with additional contextual
+documentation with simple markdown semantics.
+
+In traditional tests, every step in a test scenario, need to be translated to an action that can be executed in the browser. This is often left to test automation engineers and developers. We chose to bridge that gap and tried to completely eliminate programming or development for each step.
 
 This repository implements common gauge steps for Taiko API, so that tests can be created in plain language without
 having to programmatically implement steps for most common scenarios. This means, anybody in the team can write
@@ -48,7 +48,7 @@ STEP_IMPL_DIR = node_modules/@softrams/gauge-taiko-steps/lib, \
 
 Update environment properties in env/default/default.properties or if you have custom environments update in corresponding default.properties file.
 
-All URLs are treated as relative to APP_ROOT_URL.
+All URLs are treated as relative to APP_ROOT_URL if specified. Otherwise, all URLs must be absolute (fully specified) URLs.
 
 ```bash
 APP_ROOT_URL = <Your Application Root URL>
