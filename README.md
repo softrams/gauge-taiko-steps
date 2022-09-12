@@ -127,6 +127,7 @@ Please see a list of all available steps [here](./AvailableSteps.md).
 
 # Related projects
 
+- Testing end to end user journey flows (https://www.userflow.dev/)
 - Add Data Integrity checks to your tests cases with Gauge Steps (https://github.com/softrams/gauge-taiko-steps-mysql)
 
 # Thanks to these amazing projects
