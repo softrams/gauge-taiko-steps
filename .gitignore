@@ -49,3 +49,6 @@ combined.log
 database.log
 perf.log
 http.log
+
+# ide generated files/folders
+.idea/
