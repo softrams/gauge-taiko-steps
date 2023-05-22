@@ -1,6 +1,6 @@
 {
   "name": "@softrams/gauge-taiko-steps",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Implementation of common test steps with Taiko driver for writing tests with Gauge framework",
   "main": "index.js",
   "scripts": {
