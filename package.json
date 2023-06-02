@@ -26,6 +26,7 @@
     "taiko-accessibility": "^0.3.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "taiko": "^1.3.10"
   }
 }
