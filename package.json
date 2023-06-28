@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/softrams/gauge-taiko-steps#readme",
   "dependencies": {
+    "moment": "^2.29.4",
     "taiko-accessibility": "^0.3.2"
   },
   "devDependencies": {
