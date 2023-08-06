@@ -57,6 +57,17 @@ APP_ROOT_URL = <Your Application Root URL>
 And that's it. Start writing tests. You can check all available steps in the lib folder.
 Here is a sample test showing some of the steps available
 
+### Sleep after every scenario
+
+Sometimes you may want to pause after every scenario to allow for some cleanup or to reset the state of the application.
+You can do this by setting the _sleep_after_scenario_ property in your env/default/default.properties file.
+The value is in milliseconds. As an example, the following statement will pause for 5 seconds after every scenario.
+
+```zsh
+# Set the value of sleep after scenario in milliseconds
+sleep_after_scenario = 5000
+```
+
 ## Sample Test Scenario
 
 - Emulate device "iPad Pro landscape"
