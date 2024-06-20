@@ -75,7 +75,7 @@ sleep_after_scenario = 5000
 - Emulate timezone "America/New_York"
 - Set screen size as width "1600" height "900"
 
-- Goto "/"
+- Goto ""
 
 - Check "link" with text "Link Text" exists
 - Check "button" with text "FAQs" exists
