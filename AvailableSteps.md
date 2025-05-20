@@ -103,37 +103,37 @@ Close window
 **Description:** Asserts that an element of the given type with the specified text exists on the page.
 **Example:**
 ```
-Check button with text "Submit" exists
-Check button with text "Delete" does not exists
+Check "button" with text "Submit" exists
+Check "button" with text "Delete" does not exists
 ```
 
 #### Check `<eleType>` with text `<text>` does not exists
 **Description:** Asserts that an element of the given type with the specified text does not exist on the page.
 **Example:**
 ```
-Check button with text "Delete" does not exists
+Check "button" with text "Delete" does not exists
 ```
 
 #### Check `<eleType>` with text `<text>` is disabled / is enabled
 **Description:** Asserts that the element is disabled or enabled.
 **Example:**
 ```
-Check button with text "Submit" is disabled
-Check button with text "Submit" is enabled
+Check "button" with text "Submit" is disabled
+Check "button" with text "Submit" is enabled
 ```
 
 #### Check `<eleType>` with text `<text>` matches `<regex>`
 **Description:** Asserts that the element's text matches the given regex.
 **Example:**
 ```
-Check label with text "User ID" matches "User\\d+"
+Check "label" with text "User ID" matches "User\\d+"
 ```
 
 #### Check `<eleType>` with text `<text>` and value `<idx>` matching `<regex>` to be `<val>`
 **Description:** Asserts that the nth value matching the regex in the element's text equals the expected value.
 **Example:**
 ```
-Check label with text "Order" and value "2" matching "\\d+" to be "12345"
+Check "label" with text "Order" and value "2" matching "\\d+" to be "12345"
 ```
 
 #### Verify `<element>` `<elementState>` / Verify `<element>` is `<elementState>`
@@ -165,7 +165,7 @@ Verify "statusLabel" text is "Success"
 **Description:** Asserts that an element of the given type, near another element with the specified proximity and text, does not exist.
 **Example:**
 ```
-Check button closer toRightOf text "Cancel" does not exist
+Check "button" closer toRightOf text "Cancel" does not exist
 ```
 
 #### Check text `<text>` closer `<proximity>` text `<proximityText>` exists / does not exists
@@ -200,14 +200,14 @@ Clear "searchBox" text box
 **Description:** Clicks an element of the given type near another element with the specified proximity and text.
 **Example:**
 ```
-Click button closer toLeftOf text "Next"
+Click "button" closer toLeftOf text "Next"
 ```
 
 #### Click `<eleType>` with text `<text>`
 **Description:** Clicks an element of the given type with the specified text.
 **Example:**
 ```
-Click button with text "Submit"
+Click "button" with text "Submit"
 ```
 
 #### Click `<element>` / Click on `<element>`
@@ -221,7 +221,7 @@ Click "loginButton"
 **Description:** Clicks the specified element with the given text.
 **Example:**
 ```
-Click button "Submit"
+Click "button" "Submit"
 ```
 
 #### Click `<text>` in spec memory
