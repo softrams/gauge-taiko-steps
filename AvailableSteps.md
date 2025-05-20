@@ -4,6 +4,8 @@
 
 ## Accessibility Steps
 
+---
+
 ### Audit page for accessibility / Check accessibility for the page
 **Description:** Runs an accessibility audit on the current page using axe via taiko-accessibility. Fails the scenario if the score is below the configured threshold (default 80), unless `continue_on_accessibility_fail` is set to true.
 **Example:**
@@ -18,6 +20,8 @@ Audit page for accessibility
 
 ## Browser Steps
 
+---
+
 ### Emulate device `<deviceType>`
 **Description:** Emulates a device (e.g., iPad Pro landscape, iPhone X) for the browser session.
 **Example:**
@@ -27,12 +31,16 @@ Emulate device "iPad Pro landscape"
 **Notes:**
 - See Taiko's device list for valid device names.
 
+---
+
 ### Emulate network `<networkType>`
 **Description:** Emulates a network type (e.g., Good3G, WiFi, Offline).
 **Example:**
 ```
 Emulate network "Good3G"
 ```
+
+---
 
 ### Emulate timezone `<timezone>`
 **Description:** Emulates a timezone (e.g., America/New_York).
@@ -41,6 +49,8 @@ Emulate network "Good3G"
 Emulate timezone "America/New_York"
 ```
 
+---
+
 ### Save screenshot
 **Description:** Takes a screenshot and saves it to the configured screenshots directory.
 **Example:**
@@ -48,12 +58,16 @@ Emulate timezone "America/New_York"
 Save screenshot
 ```
 
+---
+
 ### Set screen size as width `<width>` height `<height>`
 **Description:** Sets the browser window size.
 **Example:**
 ```
 Set screen size as width "1600" height "900"
 ```
+
+---
 
 ### Set viewport size as width `<width>` height `<height>`
 **Description:** Sets the viewport size for the browser.
@@ -65,6 +79,8 @@ Set viewport size as width "1200" height "800"
 ---
 
 ## Web Page Steps
+
+---
 
 ### Page navigation
 
@@ -79,6 +95,8 @@ Goto "https://example.com" in new tab
 - If `url` is an environment variable, its value is used.
 - If `APP_ROOT_URL` is set and `url` is empty, it navigates to the root URL.
 
+---
+
 ### Switch to window tab
 
 #### Switch to `<urlTitle>` / Switch to `<urlTitle>` window
@@ -88,6 +106,8 @@ Goto "https://example.com" in new tab
 Switch to "Example Domain"
 ```
 
+---
+
 ### Close window tab
 
 #### Close window / Close window tab
@@ -96,6 +116,8 @@ Switch to "Example Domain"
 ```
 Close window
 ```
+
+---
 
 ### Check for elements with specific text and other conditions
 
@@ -159,6 +181,8 @@ Verify "button" "Submit" is visible
 Verify "statusLabel" text is "Success"
 ```
 
+---
+
 ### Proximity selector based steps
 
 #### Check `<eleType>` closer `<proximity>` text `<text>` does not exist
@@ -176,6 +200,8 @@ Check text "Error" closer above text "Username" exists
 Check text "Error" closer above text "Username" does not exists
 ```
 
+---
+
 ### Check for text on page
 
 #### Check text `<text>` exists / does not exists
@@ -185,6 +211,8 @@ Check text "Error" closer above text "Username" does not exists
 Check text "Welcome" exists
 Check text "Error" does not exists
 ```
+
+---
 
 ### Interact with form elements
 
@@ -366,6 +394,8 @@ Upload "testfile.pdf" file to "fileInput"
 **Notes:**
 - If `file_upload_directory` is set, the file path is resolved relative to it.
 
+---
+
 ### Store element text/value to the scenario state
 
 #### Save `<element>` as `<elementTextKey>` / Save `<element>` text as `<elementTextKey>`
@@ -374,6 +404,8 @@ Upload "testfile.pdf" file to "fileInput"
 ```
 Save "usernameLabel" as "savedUsername"
 ```
+
+---
 
 ### Wait for something
 
@@ -397,6 +429,8 @@ Wait "5" seconds
 ```
 Wait for "Loading complete"
 ```
+
+---
 
 ### Store page object element(s)
 
