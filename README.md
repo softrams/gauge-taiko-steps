@@ -16,6 +16,7 @@ having to programmatically implement steps for most common scenarios. This means
 fully executable and verifiable test specifications, in plain language, without any additional programming or development needed.
 
 > See a list of all available steps [here](./AvailableSteps.md).
+> Examples for using each step are documented in [StepExamples.md](./StepExamples.md).
 
 We have also created a fully browser based environment for non-programmers to easily access test projects and environments to review,
 contribute and run tests (without having to install and setup locally). This provides a docker container based environment with all test
@@ -135,6 +136,7 @@ continue_on_accessibility_fail = true
 # List of available Steps
 
 Please see a list of all available steps [here](./AvailableSteps.md).
+Examples for each step can be found in [StepExamples.md](./StepExamples.md).
 
 # Related projects
 
